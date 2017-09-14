@@ -1,0 +1,6 @@
+[ 2017-09-14T13:48:04+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0010s ]
+

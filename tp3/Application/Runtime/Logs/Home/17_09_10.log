@@ -1,0 +1,460 @@
+[ 2017-09-10T14:44:44+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-09-10T15:05:44+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-10T17:32:59+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/index.html
+ERR: 模板不存在:./Application/Home/View/CityLian/index.html
+
+[ 2017-09-10T17:45:26+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 1  [ RunTime:0.0060s ]
+
+[ 2017-09-10T17:46:55+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 2  [ RunTime:0.0040s ]
+
+[ 2017-09-10T17:47:15+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-10T17:47:17+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 3  [ RunTime:0.0020s ]
+
+[ 2017-09-10T17:47:20+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 36  [ RunTime:0.0020s ]
+
+[ 2017-09-10T17:47:21+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=411
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 411  [ RunTime:0.0020s ]
+
+[ 2017-09-10T17:48:33+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 4  [ RunTime:0.0020s ]
+
+[ 2017-09-10T17:48:35+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 37  [ RunTime:0.0030s ]
+
+[ 2017-09-10T17:48:37+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=415
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 415  [ RunTime:0.0030s ]
+
+[ 2017-09-10T17:55:19+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T17:55:22+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-09-10T17:55:24+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 4  [ RunTime:0.0000s ]
+
+[ 2017-09-10T17:55:26+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=38
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 38  [ RunTime:0.0030s ]
+
+[ 2017-09-10T17:55:27+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=440
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 440  [ RunTime:0.0030s ]
+
+[ 2017-09-10T18:30:43+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0010s ]
+
+[ 2017-09-10T18:30:51+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-10T18:30:53+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 3  [ RunTime:0.0010s ]
+
+[ 2017-09-10T18:53:27+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0010s ]
+
+[ 2017-09-10T18:53:30+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-10T18:53:32+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 3  [ RunTime:0.0000s ]
+
+[ 2017-09-10T18:53:33+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 35  [ RunTime:0.0040s ]
+
+[ 2017-09-10T18:53:34+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=396
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 396  [ RunTime:0.0030s ]
+
+[ 2017-09-10T19:04:52+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:04:59+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 3  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:05:04+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 35  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:05:05+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=397
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 397  [ RunTime:0.0030s ]
+
+[ 2017-09-10T19:05:11+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-10T19:05:15+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 5  [ RunTime:0.0020s ]
+
+[ 2017-09-10T19:05:16+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=49
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 49  [ RunTime:0.0020s ]
+
+[ 2017-09-10T19:05:17+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=608
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 608  [ RunTime:0.0030s ]
+
+[ 2017-09-10T19:05:20+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 2  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:11:58+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0010s ]
+
+[ 2017-09-10T19:12:24+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:12:28+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:12:37+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 3  [ RunTime:0.0010s ]
+
+[ 2017-09-10T19:17:11+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0010s ]
+
+[ 2017-09-10T19:18:17+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-10T19:22:59+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0010s ]
+
+[ 2017-09-10T19:24:52+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:32:37+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0010s ]
+
+[ 2017-09-10T19:34:40+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:36:47+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:41:28+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:41:47+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:42:46+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:43:05+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:44:14+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:45:24+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:45:57+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:48:54+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:49:10+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:50:36+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:50:41+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-10T19:50:51+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 2  [ RunTime:0.0010s ]
+
+[ 2017-09-10T19:50:57+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 33  [ RunTime:0.0030s ]
+
+[ 2017-09-10T19:50:59+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=379
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 379  [ RunTime:0.0020s ]
+
+[ 2017-09-10T19:51:02+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 5  [ RunTime:0.0010s ]
+
+[ 2017-09-10T19:51:03+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=50
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 50  [ RunTime:0.0040s ]
+
+[ 2017-09-10T19:51:04+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=622
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 622  [ RunTime:0.0030s ]
+
+[ 2017-09-10T19:51:08+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 3  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:51:10+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 11  [ RunTime:0.0030s ]
+
+[ 2017-09-10T19:51:12+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 54  [ RunTime:0.0020s ]
+
+[ 2017-09-10T19:51:19+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 13  [ RunTime:0.0030s ]
+
+[ 2017-09-10T19:51:21+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 10  [ RunTime:0.0030s ]
+
+[ 2017-09-10T19:51:23+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=49
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 49  [ RunTime:0.0010s ]
+
+[ 2017-09-10T19:51:25+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 2  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:51:26+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 13  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:51:28+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=52
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 52  [ RunTime:0.0030s ]
+
+[ 2017-09-10T19:51:29+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=641
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 641  [ RunTime:0.0030s ]
+
+[ 2017-09-10T19:51:31+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 5  [ RunTime:0.0000s ]
+
+[ 2017-09-10T19:51:39+08:00 ] 127.0.0.1 /php05/mianshi/sanjiliandong/tp3/index.php/Home/CityLian/city_lian.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM `mall_region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+

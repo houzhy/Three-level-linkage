@@ -1,0 +1,30 @@
+<html> 
+<head>
+<meta charset="utf-8">
+<script src='jquery-3.2.1.min.js'></script>
+</head>
+<body> 
+<label for="select_city">城市</label> 
+<form action='city_lian.php' method="post">
+<div data-role="controlgroup" id="select_p_c_a" data-ajax="false"> 
+ <select id="select_province" name='p'></select> 
+ <select id="select_city" name='c'></select> 
+ <select id="select_area" name='a'></select> 
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat" selected="selected">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</div> 
+ <input type="submit" value="Submit" />
+</form>
+<script src="test.js"></script> 
+</body> 
+</html> 
+  
+<script> 
+ region_init("select_province","select_city","select_area"); 
+</script> 
+</body> 
+</html>
